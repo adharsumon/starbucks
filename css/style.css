@@ -156,7 +156,21 @@ input:focus {
 		-o-transform: rotate(-360deg);
 }
 }
-#loader.loaded {
+
+#load {
+	background: #fff;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999999999;
+}
+
+#load.loaded {
 	display: none;
 }
 
